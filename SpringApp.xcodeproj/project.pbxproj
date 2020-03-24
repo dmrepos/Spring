@@ -40,6 +40,7 @@
 		1AA7E1831AA36EFF00762D75 /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA7E1811AA36EFF00762D75 /* AsyncImageView.swift */; };
 		1AA7E1841AA36EFF00762D75 /* AsyncButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA7E1821AA36EFF00762D75 /* AsyncButton.swift */; };
 		1AB764641A6E4F070076CD78 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 964117471A5BE90A000E3A5A /* Images.xcassets */; };
+		8819FEB0242A115300B5CD65 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8819FEAF242A115300B5CD65 /* Package.swift */; };
 		964117411A5BE90A000E3A5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964117401A5BE90A000E3A5A /* AppDelegate.swift */; };
 		964117461A5BE90A000E3A5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 964117441A5BE90A000E3A5A /* Main.storyboard */; };
 		964117481A5BE90A000E3A5A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 964117471A5BE90A000E3A5A /* Images.xcassets */; };
@@ -114,6 +115,7 @@
 		1AF3F11B1A6776760090E8F9 /* SpringLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringLabel.swift; sourceTree = "<group>"; };
 		1AF3F11C1A6776760090E8F9 /* SpringTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringTextField.swift; sourceTree = "<group>"; };
 		1AF3F11D1A6776760090E8F9 /* SpringTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringTextView.swift; sourceTree = "<group>"; };
+		8819FEAF242A115300B5CD65 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		961888D31A66BF9000295A64 /* BlurView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
 		961888D51A66BF9000295A64 /* DesignableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableButton.swift; sourceTree = "<group>"; };
 		961888D61A66BF9000295A64 /* DesignableImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableImageView.swift; sourceTree = "<group>"; };
@@ -251,6 +253,7 @@
 		964117321A5BE90A000E3A5A = {
 			isa = PBXGroup;
 			children = (
+				8819FEAF242A115300B5CD65 /* Package.swift */,
 				9641173D1A5BE90A000E3A5A /* SpringApp */,
 				964117531A5BE90A000E3A5A /* SpringAppTests */,
 				1A4FDA341A6E44780099D309 /* Spring */,
@@ -408,7 +411,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Meng To";
 				TargetAttributes = {
 					1A4FDA321A6E44780099D309 = {
@@ -535,6 +538,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8819FEB0242A115300B5CD65 /* Package.swift in Sources */,
 				964117411A5BE90A000E3A5A /* AppDelegate.swift in Sources */,
 				9641178D1A5BEC6F000E3A5A /* CodeViewController.swift in Sources */,
 				9641178C1A5BEC6F000E3A5A /* OptionsViewController.swift in Sources */,
@@ -690,12 +694,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -728,6 +734,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -743,12 +750,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -772,6 +781,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
